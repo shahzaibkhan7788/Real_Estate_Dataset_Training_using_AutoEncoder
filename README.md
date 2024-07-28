@@ -1,24 +1,7 @@
 # Real_Estate_Dataset_Training_using_AutoEncoder
-**Real Estate Price Prediction**
-This project involves training a model on a real estate dataset with 7 continuous features and 424 samples to predict real estate prices. 
-The dataset has been augmented to enhance generalization.
-The project explores two regression techniques: a simple regression tree and an autoencoder combined with a regression tree.
+**Real Estate Price Prediction using Auto encoder with the Regression Decisson Tree**
+This project aims to predict real estate prices using a dataset with 7 continuous features and 424 samples. The goal was to compare a simple regression tree with a more advanced approach that combines an autoencoder and a regression tree. The dataset was augmented to improve model generalization.
 
-Techniques and Results
-Simple Regression Tree
+The simple regression tree achieved an R-squared value of 0.92. To enhance performance, I implemented an autoencoder to extract features before applying the regression tree. This combined approach significantly improved the R-squared value to 0.97, demonstrating the effectiveness of neural network-based feature extraction.
 
-Achieved an R-squared value of 0.92.
-Autoencoder with Regression Tree
-
-Enhanced performance with an R-squared value of 0.97.
-Used neural networks for autoencoding with normalization and augmentation.
-
-Frameworks and Libraries Used
-Keras: For building and training the autoencoder.
-TensorFlow: Backend for Keras and additional neural network functionalities.
-scikit-learn: For implementing the regression tree and evaluating model performance.
-
-Dataset
-Features: 7 continuous features.
-Samples: 424 samples.
-Augmentation: Applied to improve model generalization.
+I used several frameworks and libraries for this project. Keras was used to build and train the autoencoder, with TensorFlow as the backend. Scikit-learn was employed to implement the regression tree and evaluate model performance. These tools facilitated a smooth workflow from data preprocessing to model training and evaluation.

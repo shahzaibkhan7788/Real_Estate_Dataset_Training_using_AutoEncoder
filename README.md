@@ -4,9 +4,9 @@ This project involves training a model on a real estate dataset with 7 continuou
 The dataset has been augmented to enhance generalization.
 The project explores two regression techniques: a simple regression tree and an autoencoder combined with a regression tree.
 
-**Techniques and Results
+Techniques and Results
 Simple Regression Tree
-**
+
 Achieved an R-squared value of 0.92.
 Autoencoder with Regression Tree
 
